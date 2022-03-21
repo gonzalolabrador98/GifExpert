@@ -1,0 +1,47 @@
+* {
+  font-family: 'Prompt', sans-serif;
+}
+
+body {
+  text-align: center;
+background-color: rgb(100, 105, 173);
+}
+
+input {
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  width: 70%;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  align-content: center;
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  box-shadow: 0px 5px 7px black;
+
+}
+
+.card p {
+  padding: 5px;
+  text-align: center;
+}
+
+.card img {
+  max-height: 250px;
+}
+
+.titleGif {
+  font-size: 30px;
+  text-shadow: 5px 5px 15px black;
+}
+

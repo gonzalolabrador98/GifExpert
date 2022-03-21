@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GifGrid.js debe mostrar el componente correctamente 1`] = `
+<Fragment>
+  <h3>
+    <Component />
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Cargando
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Pruebas en GifGrid.js debe mostrar items cuando se cargan imagenes useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+    <Component />
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="Dota 2"
+      key="Dota 2"
+      title="Juego"
+      url="http://localhost/algo/cualquiercosa.jpg"
+    />
+    <GifGridItem
+      id="League of Legends"
+      key="League of Legends"
+      title="Juego"
+      url="http://localhost/algo/cualquiercosa.jpg"
+    />
+  </div>
+</Fragment>
+`;
